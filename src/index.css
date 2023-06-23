@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* font-family: "poppins"; */
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 72.5%;
+    /* overflow-x: hidden; */
+}
+body{
+    background: #000;
+    color: #fff;
+
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{                      
+  font-size: 2.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 4px;
+ }
+.navbar li,.active {       
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.9rem;
+    transition: 0.5s;
+
+    }
+    
+.navbar a:hover{
+    color: #ef6e12; 
+}
+section{
+    min-height: 85vh;
+    padding: 10rem 9% 2rem;
+}
+
+#menu{
+    font-size: 3.6rem;
+    display: none;
+}  
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-detail h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.home-detail h1{
+    font-size: 5.4rem;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 1;
+    line-height: 100px;
+}
+.home-detail p{
+    font-size: 1.6rem;
+    opacity: 1;
+}
+span{
+    color: #ef6e12;
+}
+.btn{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2.8rem;
+    border-radius: 40px;
+    color: #000;
+    background: #ef6e12;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+}
+.btn:hover{
+    background: #000;
+    color: #ef6e12;
+    border: 1px solid #ef6e12;
+}
+.home-img img{
+    width: 30vw;
+    border-radius: 70px;
+    padding-left: 20px;
+}
+
+/* about section */
+.about-img img{
+    width: 30vw;
+    border-radius: 70px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+.about p{
+    color: #ef6e12;
+    padding-left: 15px;
+}
+.allheading{
+    text-align: center;
+    font-size: 4.5rem;
+    
+}
+.about-section h2{
+    text-align: center;
+    line-height: 1.2;
+}
+.about-section h3{
+    font-size: 2.5rem;
+}
+.about-section p{
+    font-size: 1.5rem;
+    margin: 2rem 0 3rem;
+}
+.about-section{
+    text-align: center;
+}
+
+.service-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.service-section .service-box{
+    flex: 1 1 30rem;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    background: #000;
+    text-align: center;
+    border: 3px solid #000;
+    transition: .5s ease;
+}
+.service-box:hover{
+    border-color: 2p solid #ef6e12;
+    transform: scale(1.2);
+}
+.service h2{
+    margin-bottom: 5rem;
+}
+.service-box i{
+    font-size: 100px;
+    color: #ef6e12;
+}
+.service h3{
+    font-size: 2.6rem;
+}
+.service-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/* contact section */
+.contact h2{
+    margin-bottom: 1rem;
+}
+.contact form{
+max-width: 70rem;
+margin: 1rem auto;
+text-align: center;
+margin-bottom: 3rem;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    border-radius: .8rem;
+    gap: 2.5rem;
+    margin: .7rem 0;
+
+}
+
+form input{
+    width: 49%;
+}
+textarea{
+    resize: none;
+}
+form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.footer{
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: wrap;
+    padding: 2rem 9%;
+}
+.footer .text p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.footerup a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #ef6e12;
+    padding: .8rem;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+.footerup i{
+    font-size: 2.4rem;
+    color: #111;
+    text-align: center;
+
+}
